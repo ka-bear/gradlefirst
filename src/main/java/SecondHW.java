@@ -27,6 +27,7 @@ class Student extends Person{
     ArrayList<Integer> marks = new ArrayList<>();
     int cur_id;
     public void getdata(String name, int age, ArrayList<Integer> marks){
+
         this.name=name;
         this.age=age;
         this.marks=marks;
